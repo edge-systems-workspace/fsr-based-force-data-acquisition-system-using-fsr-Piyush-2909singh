@@ -27,7 +27,7 @@ void setup() {
 }
 
 void loop() {
-    // Read analog value from FSR (Range: 0 - 1023)
+    // Read analog values from FSR (Range: 0 - 1023)
     sensorValue = analogRead(FSR_PIN);
 
     //print raw adc
