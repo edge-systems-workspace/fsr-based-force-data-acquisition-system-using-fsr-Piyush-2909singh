@@ -30,7 +30,7 @@ void loop() {
     // Read analog value from FSR (Range: 0 - 1023)
     sensorValue = analogRead(FSR_PIN);
 
-    // Print raw ADC value
+    //print raw adc
     Serial.print("Raw ADC Value: ");
     Serial.print(sensorValue);
 
